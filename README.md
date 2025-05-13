@@ -26,46 +26,47 @@ A web-based attendance system that uses face recognition technology to automatic
 1. Download the latest CMake installer from [CMake's official website](https://cmake.org/download/)
 2. Run the installer and select "Add CMake to the system PATH for all users"
 3. Verify installation by opening a new terminal and running:
+- ### Copy this command to verify CMake installation
 ```bash
-# Copy this command to verify CMake installation
 cmake --version
 ```
 
 #### Linux (Ubuntu/Debian)
+- ### Copy these commands to install CMake on Linux
 ```bash
-# Copy these commands to install CMake on Linux
 sudo apt update
 sudo apt install cmake
 ```
 
 #### macOS
+- ### Copy this command to install CMake on macOS
 ```bash
-# Copy this command to install CMake on macOS
 brew install cmake
 ```
 
 ## Installation
 
 1. Clone the repository:
+- ### Copy these commands to clone and enter the repository
 ```bash
-# Copy these commands to clone and enter the repository
 git clone https://github.com/devMonkRahul/Face_recognition_system.git
 cd face_recognition_system
 ```
 
 2. Install UV (Python package installer):
+- ### Copy the appropriate command for your OS to install UV
+#### Windows
 ```bash
-# Copy the appropriate command for your OS to install UV
-# Windows
 pip install uv
-
-# Linux/macOS
+```
+#### Linux/macOS
+```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 3. Install dependencies using UV:
+- ### Copy this command to install dependencies
 ```bash
-# Copy this command to install dependencies
 uv add -r requirements.txt
 ```
 
@@ -95,8 +96,8 @@ uv add -r requirements.txt
 ## Usage
 
 1. Start the application:
+- ### Copy this command to start the application
 ```bash
-# Copy this command to start the application
 uv run app.py
 ```
 
